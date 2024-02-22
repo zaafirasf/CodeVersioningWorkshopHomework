@@ -1,0 +1,15 @@
+HOW TO BRANCHING? 
+$ git branch experiment-1 #Create Branch
+$ git checkout experiment-1 #Switch to Branch
+$ git branch #List All Branch
+
+Combine Command
+$ git checkout -b experiment-1
+
+Delete Branch
+$ git branch -d experiment-1
+
+HOW TO MERGE BRANCHES to MASTER FILES?
+
+$ git checkout main #Switch to destination branch
+$ git merge experiment-1 #Merge selected branch to master files

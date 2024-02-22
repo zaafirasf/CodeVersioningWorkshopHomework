@@ -1,0 +1,12 @@
+HOW TO MERGE BRANCHES to MASTER FILES?
+
+$ git checkout main #Switch to destination branch
+$ git merge experiment-1 #Merge selected branch to master files
+
+WORKFLOW THE GIT WAY 
+1. git clone —> copy the repository to local machine
+2. make changes
+3. git add and git commit —> save the changes
+4. git fetch —> only fetch the newest files
+5. git pull (git fetch + git merge) —> fetch and merge the newest file with current file that we had. 
+6. git push —> deploy the changes to git server. 
